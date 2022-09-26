@@ -100,12 +100,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias google-chrome='osascript ~/code/scripts/run-chrome-fs.scpt'
 alias acrobat='osascript ~/code/scripts/run-acrobat-fs.scpt'
-alias notes='osascript ~/code/scripts/run-notes-fs.scpt'
 alias spotify='osascript ~/code/scripts/run-spotify-fs.scpt'
 
 alias google-chrome-close='osascript ~/code/scripts/close-chrome.scpt'
 alias acrobat-close='osascript ~/code/scripts/close-acrobat.scpt'
-alias notes-close='osascript ~/code/scripts/close-notes.scpt'
 alias spotify-close='osascript ~/code/scripts/close-spotify.scpt'
 
 alias toggle-jbl-headphones='~/code/scripts/connect-bt-jbl.zsh'
@@ -115,7 +113,6 @@ alias set_focus_off='shortcuts run set_focus_off'
 study-setup() {
   google-chrome
   acrobat
-  notes
   toggle-jbl-headphones
   spotify
   set_focus_on
@@ -124,7 +121,6 @@ study-setup() {
 study-close() {
   google-chrome-close
   acrobat-close
-  notes-close
   spotify-close
   set_focus_off
 }
